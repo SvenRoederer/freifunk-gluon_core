@@ -68,7 +68,6 @@ packages {
 	'-ppp-mod-pppoe',
 	'-wpad-mini',
 	'-wpad-basic',
-	'gluon-core',
 	'ip6tables',
 	'hostapd-mini',
 }
