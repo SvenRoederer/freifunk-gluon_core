@@ -34,10 +34,10 @@ config '# CONFIG_TARGET_ROOTFS_INITRAMFS is not set'
 config 'CONFIG_ALL_NONSHARED=y'
 
 config '# CONFIG_PACKAGE_kmod-jool is not set' -- fails to build
-config '# CONFIG_PACKAGE_kmod-openvswitch is not set' # pulls in libunbound, which fails to build
-config '# CONFIG_PACKAGE_kmod-openvswitch-geneve is not set' # pulls in libunbound, which fails to build
-config '# CONFIG_PACKAGE_kmod-openvswitch-gre is not set' # pulls in libunbound, which fails to build
-config '# CONFIG_PACKAGE_kmod-openvswitch-vxlan is not set' # pulls in libunbound, which fails to build
+config '# CONFIG_PACKAGE_kmod-openvswitch is not set' -- pulls in libunbound, which fails to build
+config '# CONFIG_PACKAGE_kmod-openvswitch-geneve is not set' -- pulls in libunbound, which fails to build
+config '# CONFIG_PACKAGE_kmod-openvswitch-gre is not set' -- pulls in libunbound, which fails to build
+config '# CONFIG_PACKAGE_kmod-openvswitch-vxlan is not set' -- pulls in libunbound, which fails to build
 
 config 'CONFIG_BUSYBOX_CUSTOM=y'
 config '# CONFIG_BUSYBOX_CONFIG_FEATURE_PREFER_IPV4_ADDRESS is not set'
